@@ -1,5 +1,7 @@
 # Unfiltered Websockets g8 template
 
+[![Build Status](https://travis-ci.org/unfiltered/unfiltered-websockets.g8.svg?branch=master)](https://travis-ci.org/unfiltered/unfiltered-websockets.g8)
+
 A simple [g8][g8] template demoing [unfiltered][uf] [websockets][ws]
 
 ## template properties
@@ -11,12 +13,12 @@ A simple [g8][g8] template demoing [unfiltered][uf] [websockets][ws]
 
 ## install
 
-    g8 softprops/unfiltered-websockets
+    g8 unfiltered/unfiltered-websockets
     # fill in template properties
     cd name-you-gave-project && sbt run
 
 2010-2012 Doug Tangren (softprops)
 
-[g8]: https://github.com/n8han/giter8#readme
+[g8]: https://github.com/foundweekends/giter8#readme
 [uf]: http://unfiltered.databinder.net/Unfiltered.html
-[ws]: https://github.com/unfiltered/Unfiltered/tree/master/netty-websockets/#readme
+[ws]: https://github.com/unfiltered/Unfiltered/tree/96f61ac3f6c/netty-websockets/#readme
