@@ -9,19 +9,19 @@ matrix:
     env: SBT_VERSION="0.13.17"
   - jdk: oraclejdk8
     scala: 2.10.7
-    env: SBT_VERSION="1.1.0"
+    env: SBT_VERSION="1.1.5"
   - jdk: openjdk7
     scala: 2.11.12
     env: SBT_VERSION="0.13.17"
   - jdk: oraclejdk8
     scala: 2.11.12
-    env: SBT_VERSION="1.1.0"
+    env: SBT_VERSION="1.1.5"
   - jdk: oraclejdk8
     scala: 2.12.6
     env: SBT_VERSION="0.13.17"
   - jdk: oraclejdk8
     scala: 2.12.6
-    env: SBT_VERSION="1.1.0"
+    env: SBT_VERSION="1.1.5"
 addons:
   apt:
     packages:
