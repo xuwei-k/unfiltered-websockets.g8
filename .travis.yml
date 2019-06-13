@@ -2,7 +2,7 @@ language: scala
 sudo: false
 script:
 - sbt ";set g8Properties in g8 in Test ~= { _ ++ Map((\"scala_version\" -> \"$TRAVIS_SCALA_VERSION\"), (\"sbt_version\" -> \"$SBT_VERSION\")) }; g8Test"
-jdk: oraclejdk8
+jdk: openjdk8
 matrix:
   include:
   - scala: 2.11.12
